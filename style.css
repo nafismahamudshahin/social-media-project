@@ -136,3 +136,7 @@ nav {
     align-self: flex-start;
     height: 700vh;
 }
+
+.main-contant img {
+    width: 100%;
+}
