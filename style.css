@@ -14,16 +14,22 @@ nav {
     justify-content: space-between;
     background: #1876f2;
     padding: 5px 5%;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 100;
+    z-index: 12;
 }
 
 .logo {
-    width: 160px;
+    width: 170px;
     margin-right: 45px;
+    font-size: 30px;
+    color: white;
+}
+
+.logo span {
+    color: #9fff05;
 }
 
 .nav-left,
@@ -90,32 +96,43 @@ nav {
     right: 0;
 }
 
-/* ksk */
+/*--------------------------
+        main container 
+---------------------------*/
 .container {
     display: flex;
     justify-content: space-between;
     padding: 13px 5px;
 }
 
+/* -------------------------
+        Left sidebar
+---------------------------- */
 .left-sidebar {
     background: #cbdffa;
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
-    height: 100vh;
+    height: 700vh;
 }
 
+/*----------------------------
+         Medil contant 
+----------------------------- */
 .main-contant {
     width: 47%;
 
 }
 
+/*---------------------------
+         Right sidebar 
+-----------------------------*/
 .right-sidebar {
     background: #cbdffa;
     flex-basis: 25%;
     position: sticky;
     top: 70px;
     align-self: flex-start;
-    height: 100vh;
+    height: 700vh;
 }
